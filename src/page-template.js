@@ -25,4 +25,4 @@ fs.writeFile ('index.html', generatePage(name,github),err => {
     console.log('Portfolio complete! Checkout index.html to see the output!')
 });
 
-module.exports = generatePage;
+module.exports = generatePage; //Use this to use functions from one module inside another
